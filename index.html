@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVault - Play Amazing Games Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>GameVault</h1>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Search for games...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Popular</a>
+                <a href="#">New</a>
+                <a href="#">Categories</a>
+            </div>
+            <div class="user-actions">
+                <button class="btn btn-secondary">Login</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Play the Best Online Games</h1>
+                <p>Discover thousands of games for free. No downloads, just fun!</p>
+                <button class="btn btn-primary btn-large">Play Now</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Featured Games">
+            </div>
+        </section>
+
+        <section class="trending">
+            <div class="section-header">
+                <h2>Trending Now</h2>
+                <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="game-grid">
+                <div class="game-card featured">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                        <span class="game-badge hot">HOT</span>
+                    </div>
+                    <div class="game-info">
+                        <h3>Epic Adventure</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Adventure</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.9</span>
+                        </div>
+                        <p class="game-desc">Embark on an epic journey through mysterious lands</p>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Racing Pro</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Racing</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.7</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                        <span class="game-badge new">NEW</span>
+                    </div>
+                    <div class="game-info">
+                        <h3>Puzzle Master</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Puzzle</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.5</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Zombie Survival</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Action</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="section-header">
+                <h2>Game Categories</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Action</h3>
+                    <span class="game-count">250+ Games</span>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Puzzle</h3>
+                    <span class="game-count">180+ Games</span>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Sports</h3>
+                    <span class="game-count">120+ Games</span>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Racing</h3>
+                    <span class="game-count">95+ Games</span>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-chess"></i>
+                    <h3>Strategy</h3>
+                    <span class="game-count">150+ Games</span>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Casual</h3>
+                    <span class="game-count">300+ Games</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular">
+            <div class="section-header">
+                <h2>Most Popular</h2>
+                <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="game-grid">
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Battle Royale</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Action</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.9</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Farm Life</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Simulation</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.6</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Word Master</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Word</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.7</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <div class="game-thumb">
+                        <img src="https://via.placeholder.com/300x200" alt="Game Name">
+                    </div>
+                    <div class="game-info">
+                        <h3>Tower Defense</h3>
+                        <div class="game-meta">
+                            <span class="game-category">Strategy</span>
+                            <span class="game-rating"><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                        <button class="btn btn-play"><i class="fas fa-play"></i> Play Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to get notified about new games and exclusive offers</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>GameVault</h2>
+                <p>The best online gaming platform</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Top Rated</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GameVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
